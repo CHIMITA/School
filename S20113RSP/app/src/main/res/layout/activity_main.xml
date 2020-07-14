@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#E9BEBE"
+        android:text="컴퓨터"
+        android:textSize="50dp"
+        android:gravity="center"
+        android:id="@+id/TV_com"/>
+
+    <TextView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFE49D"
+        android:textColor="#B3AAAA"
+        android:text="가위바위보\n[누르면 시작]"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:id="@+id/TV_result"/>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#4F6C9E"
+            android:textColor="#ffffff"
+            android:text="가위"
+            android:textSize="50dp"
+            android:gravity="center"
+            android:id="@+id/BT_man_S"/>
+        <Button
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#4F6C9E"
+            android:textColor="#ffffff"
+            android:text="바위"
+            android:textSize="50dp"
+            android:gravity="center"
+            android:id="@+id/BT_man_R"/>
+
+        <Button
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#4F6C9E"
+            android:textColor="#ffffff"
+            android:text="보"
+            android:textSize="50dp"
+            android:gravity="center"
+            android:id="@+id/BT_man_P"/>
+
+    </LinearLayout>
+</LinearLayout>
